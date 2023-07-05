@@ -1,0 +1,63 @@
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+#header .header_links {
+  display: flex;
+  align-items: center;
+  gap: 0 25px;
+  list-style-type: none;
+}
+#header .header_links .header_link_item a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222 !important;
+  text-decoration: none !important;
+}
+#header .header_img {
+  width: 56px;
+  height: 56px;
+}
+#header .header_img img {
+  width: 100% !important;
+}
+#header .header_actions {
+  display: flex;
+  align-items: center;
+  gap: 0 25px;
+}
+#header .header_actions button {
+  border: none;
+  width: 160px;
+  height: 40px;
+  border-radius: 8px;
+  background: #09A66D;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+#header .header_actions .header_search_icon,
+#header .header_actions .header_basket_icon {
+  width: 40px;
+  height: 40px;
+  background: #F3FBF8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headers_image {
+  width: 56px !important;
+  height: 56px !important;
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,83 @@
+#contact{
+    background: #fff;
+    padding: 50px 0;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // padding: 100px 0;
+        .contact_left{
+            width: 30%;
+            height: 280px;
+            position: relative;
+            .img1{
+                z-index: 10;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-85%, -63%);
+            }
+            .img2{
+                z-index: 20;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-60%, -61%);
+            }
+        }
+        .contact_right{
+            width: 60%;
+            .contact_btn{
+                padding: 10px 20px;
+                width: 170px;
+                height: 40px;
+                border-radius: 50px;
+                border: none;
+                background: #F3FBF8;
+                font-size: 18px;
+            }
+            & > div{
+                p{
+                    width: 574px;
+                    padding-bottom: 30px;
+                }
+            }
+
+            .btns_section{
+                display: flex;
+                align-items: center;
+                gap: 0 50px;
+                .wrapper{
+                    text-decoration: none;
+                    width: 180px;
+                    height: 64px;
+                    background: #000;
+                    border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    font-family: sans-serif;
+                }
+                .wrapper img{
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    width: 45px;
+                }
+                .w_title{
+                    color: #fff;
+                }
+                .w_title span:nth-child(2){
+                    font-size: 16px;
+                    font-weight: bold;
+                    display: block;
+                }
+                .w_title span:nth-child(1){
+                    text-transform: uppercase;
+                    padding-top: 5px;
+                    font-size: 12px;
+                    display: block;
+                }
+            }
+        }
+    }
+}

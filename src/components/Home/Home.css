@@ -1,0 +1,8 @@
+#home {
+  background: #F3FBF8;
+}
+#home .home_top_section {
+  background: url(../../asset/resource/home_img_1.png) no-repeat;
+  background-position: top left;
+  text-align: center;
+}/*# sourceMappingURL=Home.css.map */
